@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "resources/testng-1.0.dtd">
+
+<suite name="Capstone Project 1 Suite">
+  <test name="ShoppingCart and Wishlist Tests">
+    <classes>
+      <class name="CapstoneTest1.ShoppingCartTest"/>
+      <class name="CapstoneTest1.WishlistTest"/>
+    </classes>
+  </test>
+</suite>
