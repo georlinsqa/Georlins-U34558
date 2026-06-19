@@ -1,0 +1,19 @@
+<!-- Please note that i have to download the .dtd file and save it locallay in resources folder and referenece here as its the only work around available -->
+<!DOCTYPE suite SYSTEM "resources/testng-1.0.dtd">
+<suite name="Capstone Project 2 Suite" verbose="1" parallel="false">
+
+    <!-- Customer Module Tests -->
+    <test name="CustomerTests">
+        <classes>
+            <class name="CapstoneTest2.CustomerTest"/>
+        </classes>
+    </test>
+
+    <!-- Manager Module Tests -->
+    <test name="ManagerTests">
+        <classes>
+            <class name="CapstoneTest2.ManagerTest"/>
+        </classes>
+    </test>
+
+</suite>
